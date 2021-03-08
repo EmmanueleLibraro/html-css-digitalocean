@@ -42,30 +42,79 @@
 /* MENU-HAMBURGER  */
  .menu-1{
   padding-top: 20px;
-  padding-left: 285px;
+  /* padding-left: 285px; */
+  position: relative;
 }
 
 .menu-icona{
     width: 35px;
     height: 5px;
-    background-color: rgb(38, 135, 253);
+    background-color: rgb(38, 135, 253);         
     margin: 6px 0;
-
+    position: absolute;
+    right: 0;
 }
 
-/* MAIN */
+/* MAIN-JUMBOTRON */
 .sfondo{
     background-image: url(../img/bg-banner-home.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    height: 300px;
+    height: 600px;
 }
 
 .main-section h1{
 color: #fff;
+font-size: 40px;
 }
 
 .main-section p{
 color: rgb(187, 205,255);
 font-size: 20px;
 }
+
+.sfondo-main{
+    background: #fff;
+    border-radius: 5px;
+    height: 315px;
+}
+
+.sfondo-main h3{
+    color: rgb(3, 28, 78);
+    font-size: 28px;
+}
+
+.sfondo-main p{
+    color: rgb(38, 135, 253);
+    font-size: 28px;
+}
+
+.email-pass .form-control{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.pulsante{
+    width: 100%;
+    background: rgb(38, 135, 253);
+    height: 35px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    padding: 6px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.pulsante-2{
+    width: 100%;
+    background: #fff;
+    height: 35px;
+    border-radius: 5px;
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+    padding: 6px;
+    line-height: 25px;
+    box-shadow: -1px 5px 49px -9px rgba(57,56,56,0.63);
+}
+     
