@@ -1,0 +1,18 @@
+/* MAIN-HEADER */
+.main-header{
+    padding: 20px;
+}
+
+.logo-header{
+    width: 50%;
+}
+
+.container .lista-logo ul> li{
+    display: inline-block;
+    list-style: none;
+}
+
+.container .lista-logo li> a{
+    color: rgb(3, 28, 78);
+    padding-left: 5px;
+}
