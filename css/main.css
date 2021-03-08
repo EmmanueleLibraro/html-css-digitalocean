@@ -42,7 +42,7 @@
 /* MENU-HAMBURGER  */
  .menu-1{
   padding-top: 20px;
-  padding-left: 300px;
+  padding-left: 285px;
 }
 
 .menu-icona{
@@ -51,4 +51,21 @@
     background-color: rgb(38, 135, 253);
     margin: 6px 0;
 
+}
+
+/* MAIN */
+.sfondo{
+    background-image: url(../img/bg-banner-home.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 300px;
+}
+
+.main-section h1{
+color: #fff;
+}
+
+.main-section p{
+color: rgb(187, 205,255);
+font-size: 20px;
 }
