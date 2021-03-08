@@ -1,11 +1,23 @@
 /* MAIN-HEADER */
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
 .main-header{
-    padding: 20px;
+    padding-top: 20px;
+    line-height: 80px;
 }
 
 .logo-header{
-    width: 40%;
+   vertical-align: middle;
+   width: 200px;
     
+}
+
+.container .lista-logo ul{
+    padding-left: 0;
 }
 
 .container .lista-logo ul> li{
@@ -16,5 +28,27 @@
 
 .container .lista-logo li> a{
     color: rgb(3, 28, 78);
-    padding-left: 5px;
+    padding-left: 10px;
+}
+
+.container .bottone-1{
+    border-color: rgb(38, 135, 253);
+    background: #fff;
+    color: rgb(38, 135, 253);
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+/* MENU-HAMBURGER  */
+ .menu-1{
+  padding-top: 20px;
+  padding-left: 300px;
+}
+
+.menu-icona{
+    width: 35px;
+    height: 5px;
+    background-color: rgb(38, 135, 253);
+    margin: 6px 0;
+
 }
