@@ -4,12 +4,14 @@
 }
 
 .logo-header{
-    width: 50%;
+    width: 40%;
+    
 }
 
 .container .lista-logo ul> li{
     display: inline-block;
     list-style: none;
+    font-size: 20px;
 }
 
 .container .lista-logo li> a{
