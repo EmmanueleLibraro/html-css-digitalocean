@@ -66,7 +66,7 @@
     margin: 6px 0;
 }
 
-/* MAIN-JUMBOTRON */
+/* MAIN-JUMBOTRON (SECTION-1)*/
 .sfondo{
     background-image: url(../img/bg-banner-home.jpg);
     background-repeat: no-repeat;
@@ -135,6 +135,7 @@ padding-top: 20px;
 .fine-termini p{
     color:rgb(3, 28, 78);
     padding-top: 20px;
+    font-size: 15px;
 }
 
 .icona-google img{
@@ -148,4 +149,81 @@ padding-top: 20px;
     border-bottom: 1px solid rgb(38, 135, 253);
     text-decoration: none;
 }
-     
+   
+/* SECTION-2 */
+.back-icon-logo{
+    background: rgb(243, 245, 249);
+}
+
+.container .main-logo h3{
+    color: rgb(111, 123, 151);
+    text-transform: uppercase;
+}
+
+.main-logo ul>li{
+    list-style: none;
+    width: calc(100% / 6 - 10px);
+    display: inline-block;
+}
+
+.main-logo img{
+    width: 100%;
+}
+
+.container .customers a{
+    text-decoration: none;
+    color: rgb(38, 135, 253);
+    font-size: 18px;
+}
+
+/* SECTION-3 */
+.pd-top{
+    padding-top: 50px;
+}
+
+.main-sec-3 .testo h3{
+    color: rgb(3, 28, 78);
+    font-size: 35px;
+}
+
+.main-sec-3 .testo p{
+    color: rgb(92, 106, 136);
+    font-size: 20px;
+}
+
+.main-sec-3 ul{
+    padding-left: 0;
+    padding-top: 50px;
+}
+
+.main-sec-3 ul>li{
+    border-left: 3px solid rgb(204, 204, 204);
+    list-style: none;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(92, 106, 136);
+    font-size: 20px;
+}
+
+/* TESTO-IMG-SECTION-3 */
+.container .main-text img{
+    padding-top: 30px;
+}
+
+.container .main-text .img-2{
+    padding-top: 5px;
+}
+
+.container .main-text .title{
+    font-size: 25px;
+    color: rgb(3, 28, 78);
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
+.container .main-text p{
+    font-size: 18px;
+    color: rgb(92, 106, 136);
+}
