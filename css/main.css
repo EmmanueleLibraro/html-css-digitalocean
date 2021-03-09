@@ -153,6 +153,7 @@ padding-top: 20px;
 /* SECTION-2 */
 .back-icon-logo{
     background: rgb(243, 245, 249);
+    padding-bottom: 25px;
 }
 
 .container .main-logo h3{
@@ -302,8 +303,54 @@ padding-top: 20px;
 }
 
 /* SECTION-5 */
+.main-sec-5{
+    padding-top: 20px;
+    margin-bottom: 55px;
+}
+
 .main-sec-5 .testo-link a{
     text-decoration: none;
     color: rgb(38, 135, 253);
+    font-size: 18px;
+}
+
+/* SECTION-6 */
+.main-sec-6{
+    background: linear-gradient(rgb(0, 71, 197), rgb(0, 30, 153));
+    height: auto;
+}
+
+.main-sec-6 .container .service-test h2{
+    color: #fff;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.main-sec-6 .container .lista{
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+}
+
+.main-sec-6 .container .lista-1{
+    border-bottom: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0;
+    padding-bottom: 30px;
+}
+
+
+.main-sec-6 .container .lista>a{
+    text-decoration: none;
+    color: rgb(0, 167, 201);
+    font-size: 18px;
+}
+
+.main-sec-6 .container .lista-1>a{
+    text-decoration: none;
+    color: rgb(0, 167, 201);
     font-size: 18px;
 }
