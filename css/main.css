@@ -29,6 +29,11 @@
 .container .lista-logo li> a{
     color: rgb(3, 28, 78);
     padding-left: 10px;
+    text-decoration: none;
+}
+
+.container .lista-logo li> a:hover{
+    color: rgb(38, 135, 253);
 }
 
 .container .bottone-1{
@@ -39,11 +44,19 @@
     margin-left: 5px;
 }
 
+.container .bottone-1:hover{
+    color: #fff;
+    background: rgb(38, 135, 253);
+}
+
 /* MENU-HAMBURGER  */
  .menu-1{
   padding-top: 20px;
-  /* padding-left: 285px; */
-  position: relative;
+}
+
+.menu-hamburger{
+    position: absolute;
+    right: 0;
 }
 
 .menu-icona{
@@ -51,8 +64,6 @@
     height: 5px;
     background-color: rgb(38, 135, 253);         
     margin: 6px 0;
-    position: absolute;
-    right: 0;
 }
 
 /* MAIN-JUMBOTRON */
@@ -68,7 +79,7 @@ color: #fff;
 font-size: 40px;
 }
 
-.main-section p{
+.main-section .deploy-sec{
 color: rgb(187, 205,255);
 font-size: 20px;
 }
@@ -76,7 +87,7 @@ font-size: 20px;
 .sfondo-main{
     background: #fff;
     border-radius: 5px;
-    height: 315px;
+    height: 350px;
 }
 
 .sfondo-main h3{
@@ -84,7 +95,7 @@ font-size: 20px;
     font-size: 28px;
 }
 
-.sfondo-main p{
+.sfondo-main .get-start{
     color: rgb(38, 135, 253);
     font-size: 28px;
 }
@@ -116,5 +127,15 @@ font-size: 20px;
     padding: 6px;
     line-height: 25px;
     box-shadow: -1px 5px 49px -9px rgba(57,56,56,0.63);
+}
+
+.fine-termini p{
+    color:rgb(3, 28, 78);
+    padding-top: 20px;
+}
+
+.sfondo-main .bordo-termini{
+    color: rgb(38, 135, 253);
+    border-bottom: 1px solid rgb(38, 135, 253);
 }
      
