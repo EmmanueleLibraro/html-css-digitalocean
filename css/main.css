@@ -208,6 +208,10 @@ padding-top: 20px;
 }
 
 /* TESTO-IMG-SECTION-3 */
+.main-sec-3{
+    padding-bottom: 50px;
+}
+
 .container .main-text img{
     padding-top: 30px;
 }
@@ -226,4 +230,20 @@ padding-top: 20px;
 .container .main-text p{
     font-size: 18px;
     color: rgb(92, 106, 136);
+}
+
+/* SECTION-4 */
+.main-sec-4{
+    background: rgb(243, 245, 249);
+}
+
+.main-sec-4 .designed-sec h2{
+    color: rgb(3, 28, 78);
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.main-sec-4 .designed-sec p{
+    color: rgb(88, 102, 134);
+    font-size: 25px;
 }
