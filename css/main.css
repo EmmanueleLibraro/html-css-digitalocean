@@ -71,23 +71,26 @@
     background-image: url(../img/bg-banner-home.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    height: 600px;
+    height: auto;
 }
 
 .main-section h1{
 color: #fff;
-font-size: 40px;
+font-size: 48px;
 }
 
 .main-section .deploy-sec{
 color: rgb(187, 205,255);
-font-size: 20px;
+font-size: 25px;
+padding-top: 20px;
 }
 
 .sfondo-main{
     background: #fff;
     border-radius: 5px;
     height: 350px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .sfondo-main h3{
@@ -134,8 +137,15 @@ font-size: 20px;
     padding-top: 20px;
 }
 
-.sfondo-main .bordo-termini{
+.icona-google img{
+    width: 25px;
+    position: absolute;
+    left: 20px;
+}
+
+.fine-termini .bordo-termini {
     color: rgb(38, 135, 253);
     border-bottom: 1px solid rgb(38, 135, 253);
+    text-decoration: none;
 }
      
