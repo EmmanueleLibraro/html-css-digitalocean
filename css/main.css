@@ -300,3 +300,10 @@ padding-top: 20px;
     background: rgb(38, 135, 253);
     cursor: pointer;
 }
+
+/* SECTION-5 */
+.main-sec-5 .testo-link a{
+    text-decoration: none;
+    color: rgb(38, 135, 253);
+    font-size: 18px;
+}
