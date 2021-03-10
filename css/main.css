@@ -313,6 +313,11 @@ padding-top: 20px;
     text-decoration: none;
     color: rgb(38, 135, 253);
     font-size: 18px;
+    transition: .3s;
+}
+
+.main-sec-5 .testo-link a:hover{
+    border-bottom: 1px solid rgb(38, 135, 253);
 }
 
 /* SECTION-6 */
@@ -426,7 +431,7 @@ padding-top: 20px;
 /* SECTION-8 */
 .main-sec-8{
     background: linear-gradient( rgb(0, 71, 197), rgb(0, 30, 153));
-    height: auto;
+    height: 200px;
 }
 
 .main-sec-8 h2{
@@ -448,4 +453,70 @@ padding-top: 20px;
     background: rgb(0, 106, 255);
     color: #fff;
     border: transparent;
+}
+
+/* SECTION-9-FOOTER */
+.main-sec-9{
+    padding-top: 30px;
+    background: rgb(3, 28, 78);
+    height: auto;
+}
+
+.main-sec-9 p {
+    color: rgb(139, 148, 169);
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+}
+
+.main-sec-9 .ny-text{
+    color: rgb(90, 104, 135);
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+/* LISTA-SOCIAL */
+.main-sec-9 ul{
+    padding-left: 0;
+}
+
+.main-sec-9 .lista-social li{
+    display: inline-block;
+    padding-right: 10px;
+    list-style: none;
+    font-size: 20px;
+    color: rgb(122, 133, 157);
+}
+
+.main-sec-9 .social-icon a{
+    color: rgb(122, 133, 157);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.main-sec-9 li> a:hover{
+    color: #fff;
+}
+
+/* LISTA-CONTATTI */
+.lista-contatti{
+    padding-left: 20px;
+}
+
+
+.main-sec-9 .lista-contatti h4{
+    color: #fff;
+}
+
+.main-sec-9 .lista-contatti ul>li{
+    list-style: none;
+    color: rgb(122, 133, 157);
+    padding-bottom: 8px;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.main-sec-9 .lista-contatti li:hover{
+    color: #fff;
 }
