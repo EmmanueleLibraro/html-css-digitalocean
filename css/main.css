@@ -30,6 +30,7 @@
     color: rgb(3, 28, 78);
     padding-left: 10px;
     text-decoration: none;
+    transition: .3s;
 }
 
 .container .lista-logo li> a:hover{
@@ -331,14 +332,14 @@ padding-top: 20px;
     color: #fff;
     font-size: 20px;
     border-bottom: 1px solid #fff;
-    padding: 10px 0;
+    padding: 10px ;
 }
 
 .main-sec-6 .container .lista-1{
     border-bottom: none;
     color: #fff;
     font-size: 20px;
-    padding: 10px 0;
+    padding: 10px ;
     padding-bottom: 30px;
 }
 
@@ -420,4 +421,31 @@ padding-top: 20px;
 .main-sec-7 .pallini .pallini-bianchi:hover{
     background: rgb(38, 135, 253);
     cursor: pointer;
+}
+
+/* SECTION-8 */
+.main-sec-8{
+    background: linear-gradient( rgb(0, 71, 197), rgb(0, 30, 153));
+    height: auto;
+}
+
+.main-sec-8 h2{
+    color: #fff;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-sec-8 .bottone-2{
+    font-size: 18px;
+    background: #fff;
+    color: rgb(0, 106, 255);
+    border-color: rgb(0, 106, 255);
+    transition: .3s;
+}
+
+.main-sec-8 .bottone-2:hover{
+    background: rgb(0, 106, 255);
+    color: #fff;
+    border: transparent;
 }
