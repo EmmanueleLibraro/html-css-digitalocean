@@ -68,11 +68,26 @@
 }
 
 /* MAIN-JUMBOTRON (SECTION-1)*/
+
+/* MEDIA-QUERY */
+@media screen and (min-width: 1119px){
+    .sfondo{
+        padding-top: 150px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .sfondo{
+        padding-top: 150px;
+    }
+}
+/* FINE-MEDIA-QUERY */
+
 .sfondo{
     background-image: url(../img/bg-banner-home.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    height: auto;
+    height: 735px;
 }
 
 .main-section h1{
@@ -162,6 +177,14 @@ padding-top: 20px;
     text-transform: uppercase;
 }
 
+/* MEDIA-QUERY */
+@media screen and (min-width: 575px){
+    .main-logo ul>li{
+        list-style: none;
+        width: calc(100% / 2 - 10px);
+        display: inline-block;
+    }
+}
 .main-logo ul>li{
     list-style: none;
     width: calc(100% / 6 - 10px);
