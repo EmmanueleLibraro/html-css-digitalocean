@@ -354,3 +354,70 @@ padding-top: 20px;
     color: rgb(0, 167, 201);
     font-size: 18px;
 }
+
+/* SECTION-7 */
+.main-sec-7{
+    background: #F3F5F9;
+    height: auto;
+}
+
+
+.main-sec-7 .container h2{
+    color: rgb(3, 28, 78);
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.main-sec-7 .container .rocke-text{
+    background: #fff;
+    margin: 0 auto;
+    width: 50%;
+    height: 400px;
+    margin-top: 200px;
+}
+
+.main-sec-7 .container .rocke-text img{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.main-sec-7 .container .rocke-text p{
+    color: rgb(88, 102, 134);
+    font-size: 25px;
+}
+
+.main-sec-7 .container .rocke-text .rick-text{
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+.main-sec-7 .container .rocke-text .cto-text{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.main-sec-7 .pallini ul>li{
+    width: 15px;
+    height: 15px;
+    background: rgb(38, 135, 253);
+    display: inline-block;
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-sec-7 .pallini .pallini-bianchi{
+    background: rgb(243, 245, 249);
+    border: 1px solid ;
+    border-color:  rgb(38, 135, 253);
+    transition: .3s;
+}
+
+.main-sec-7 .pallini .pallini-bianchi:hover{
+    background: rgb(38, 135, 253);
+    cursor: pointer;
+}
